@@ -55,17 +55,8 @@ nav li {
   font-size: 1.15rem;
 }
 
-nav a {
-  text-decoration: none;
-  color: #4C4C4C;
-}
-
 nav a:hover {
   color: #70C7B5;
-}
-
-nav a:visited {
-  color: #4C4C4C;
 }
 
 /* Content Container */

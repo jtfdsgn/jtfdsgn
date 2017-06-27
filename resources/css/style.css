@@ -9,11 +9,19 @@ body {
 h1, h2, h3, li {
   font-weight: 800;
   letter-spacing: .05rem;
-  line-height: 1.5;
 }
 
 p, span  {
   font-weight: 300;
+}
+
+p, footer {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #70C7B5;
 }
 
 /* Header Section */
@@ -39,11 +47,6 @@ nav {
 nav li {
   margin-top: .75rem;
   font-size: 1.15rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: #4C4C4C;
 }
 
 nav a:hover {
