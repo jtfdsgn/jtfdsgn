@@ -1,0 +1,151 @@
+/* Universal Styles */
+
+body {
+  background-color: #f8fcfb;
+  font-family: 'Overpass', sans-serif;
+  color: #4C4C4C;
+}
+
+h1, h2, h3, li {
+  font-weight: 800;
+  letter-spacing: .05rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p, span  {
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+p, footer {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #70C7B5;
+}
+
+/* Header Section */
+
+header {
+  width: 100%;
+  padding: 2rem 3rem;
+  display: flex;
+}
+
+header img {
+  height: 200px;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: .75rem;
+  position: relative;
+  right: 3rem;
+}
+
+nav li {
+  margin-top: .75rem;
+  font-size: 1.15rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4C4C4C;
+}
+
+nav a:hover {
+  color: #70C7B5;
+}
+
+nav a:visited {
+  color: #4C4C4C;
+}
+
+/* Content Container */
+
+div#content {
+  width: 100%;
+  padding: 3rem 5rem;
+}
+
+/* Description Section */
+
+.description p {
+  margin-top: 2rem;
+  margin-right: 10rem;
+}
+
+/* Artwork Section */
+
+div.gallery {
+  margin-top: 4rem;
+}
+
+.gallery img {
+  width: 85%;
+  max-width: 1200px;
+}
+
+/* Footer Section */
+
+footer {
+  padding: 3rem 5rem;
+}
+
+#social {
+  display: flex;
+  align-items: center;
+}
+
+#social img {
+  height: 40px;
+  padding-right: .5rem;
+}
+
+footer h2 {
+  padding: .25rem 0;
+  font-size: 1.25rem;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 900px) {
+
+  div#content {
+    padding: 3rem 2.5rem;
+  }
+
+  .description p {
+    margin-right: 7rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  html {
+    font-size: 12px;
+  }
+
+  header {
+    padding: 2rem 1.5rem;
+  }
+
+  div#content {
+    padding: 2rem;
+  }
+
+  .description p {
+    margin-right: 6rem;
+  }
+
+  #social img {
+    height: 30px;
+  }
+
+}
