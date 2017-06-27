@@ -102,7 +102,7 @@ footer a {
 
 /* Media Query */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px){
 
   div.gallery {
     padding-right: 3rem;
@@ -113,7 +113,7 @@ footer a {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 250px) and (max-width: 600px) {
 
   /* Header */
 
