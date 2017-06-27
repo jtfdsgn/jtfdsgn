@@ -34,7 +34,7 @@ a {
 
 header {
   width: 100%;
-  padding: 2rem 0 2rem 3rem;
+  padding: 2rem 3rem;
   display: flex;
 }
 
@@ -72,7 +72,7 @@ nav a:visited {
 
 div#content {
   width: 100%;
-  padding: 3rem 0 3rem 5rem;
+  padding: 3rem 5rem;
 }
 
 /* Description Section */
@@ -96,7 +96,7 @@ div.gallery {
 /* Footer Section */
 
 footer {
-  padding: 3rem 0 3rem 5rem;
+  padding: 3rem 5rem;
 }
 
 #social {
