@@ -13,6 +13,7 @@ h1, h2, h3, li {
 
 h1 {
   font-size: 2rem;
+  padding-right: 2rem;
 }
 
 p, span  {
