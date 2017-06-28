@@ -21,6 +21,10 @@ p, footer {
 
 a {
   text-decoration: none;
+  color: #4C4C4C;
+}
+
+a:hover {
   color: #70C7B5;
 }
 
@@ -28,7 +32,7 @@ a {
 
 header {
   width: 100%;
-  padding: 2rem 3rem;
+  padding: 2rem 5rem;
   display: flex;
 }
 
@@ -41,16 +45,12 @@ nav {
   align-items: flex-end;
   padding-bottom: .75rem;
   position: relative;
-  right: 3rem;
+  right: 1.5rem;
 }
 
 nav li {
   margin-top: .75rem;
   font-size: 1.15rem;
-}
-
-nav a:hover {
-  color: #70C7B5;
 }
 
 /* Content Container */
