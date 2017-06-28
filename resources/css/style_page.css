@@ -50,7 +50,7 @@ nav {
   align-items: flex-end;
   padding-bottom: .75rem;
   position: relative;
-  right: 1.5rem;
+  right: 1rem;
 }
 
 nav li {
@@ -96,6 +96,7 @@ footer {
 #social {
   display: flex;
   align-items: center;
+  margin-top: .25rem;
 }
 
 #social img {
@@ -136,6 +137,10 @@ footer h2 {
     padding: 2rem;
   }
 
+  nav {
+    right: 1.5rem;
+  }
+
   div.content {
     padding-left: 2rem;
   }
@@ -145,7 +150,7 @@ footer h2 {
   }
 
   #social img {
-    height: 30px;
+    height: 35px;
   }
 
 }

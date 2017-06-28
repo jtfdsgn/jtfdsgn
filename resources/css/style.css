@@ -31,7 +31,6 @@ a:hover {
 /* Header Section */
 
 header {
-  width: 100%;
   padding: 2rem 5rem;
   display: flex;
 }
@@ -45,7 +44,7 @@ nav {
   align-items: flex-end;
   padding-bottom: .75rem;
   position: relative;
-  right: 1.5rem;
+  right: 1rem;
 }
 
 nav li {
@@ -55,8 +54,7 @@ nav li {
 
 /* Content Container */
 
-div#content {
-  width: 100%;
+div.content {
   padding: 3rem 5rem;
 }
 
@@ -64,8 +62,8 @@ div#content {
 
 div.gallery {
   display: flex;
-  padding-right: 5rem;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 div.thumbnail {
@@ -74,7 +72,7 @@ div.thumbnail {
 }
 
 .thumbnail img {
-  width: 90%;
+  width: 100%;
 }
 
 /* Footer Section */
@@ -98,44 +96,54 @@ footer h2 {
   font-size: 1.25rem;
 }
 
-footer a {
-  text-decoration: none;
-  color: #70C7B5;
-}
-
 /* Media Query */
 
 @media only screen and (min-width: 601px) and (max-width: 900px){
 
-  div.gallery {
-    padding-right: 3rem;
+  header {
+    padding: 2rem 3rem;
+  }
+
+  div.content {
+    padding: 3rem;
   }
 
   div.thumbnail {
-    width: 45%;
+    width: 48%;
+  }
+
+  footer {
+    padding: 3rem;
   }
 }
 
 @media only screen and (min-width: 250px) and (max-width: 600px) {
 
-  /* Header */
+  html {
+    font-size: 12px;
+  }
 
   header {
-    padding: 1rem 1.5rem;
+    padding: 2rem;
   }
 
-  /* Content */
-
-  div#content {
-    padding: 2rem 3.5rem;
+  nav {
+    right: 1.5rem;
   }
 
-  div.gallery {
-    padding-right: 2rem;
+  div.content {
+    padding: 2rem;
   }
 
   div.thumbnail {
-    width: 80%;
+    width: 100%;
   }
 
+  footer {
+    padding: 2rem;
+  }
+
+  #social img {
+    height: 35px;
+  }
 }
