@@ -109,8 +109,12 @@ footer h2 {
   font-size: 1.25rem;
 }
 
+#social a {
+  opacity: .8;
+}
+
 #social a:hover {
-  opacity: .7;
+  opacity: 1;
 }
 
 /* Media Query */
