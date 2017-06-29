@@ -11,14 +11,9 @@ h1, h2, h3, li {
   letter-spacing: .05rem;
 }
 
-h1 {
-  font-size: 2rem;
-  line-height: 1.2;
-}
-
-p, span  {
+p  {
   font-weight: 300;
-  font-size: 1.25rem;
+  padding-top: 1rem;
 }
 
 p, footer {
@@ -32,6 +27,14 @@ a {
 
 a:hover {
   color: #70C7B5;
+}
+
+a:hover p {
+  color: #4C4C4C;
+}
+
+div.cover-title {
+  margin: auto;
 }
 
 /* Header Section */
@@ -61,34 +64,42 @@ nav li {
 /* Content Container */
 
 div.content {
-  padding-left: 5rem;
-  margin-top: 3rem;
-}
-
-/* Description Section */
-
-div.description {
-  width: 90%;
-}
-.description p {
-  margin-top: 2rem;
+  padding: 3rem 5rem;
 }
 
 /* Artwork Section */
 
 div.gallery {
-  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.gallery img {
-  width: 85%;
-  max-width: 1100px;
-  display: block;
-  margin: auto;
+div.thumbnail {
+  width: 32%;
+  margin-bottom: 1rem;
+
 }
 
-#halted img {
-  padding-bottom: 1.5rem;
+.thumbnail img {
+  width: 100%;
+}
+
+a.cover {
+  opacity: .8;
+}
+
+a.cover:hover {
+  opacity: 1;
+}
+
+.cover_title {
+  padding-left: 1rem;
+  margin-top: .5rem;
+}
+
+.cover_title h1 {
+  font-size: 1.5rem;
 }
 
 /* Footer Section */
@@ -100,7 +111,6 @@ footer {
 #social {
   display: flex;
   align-items: center;
-  margin-top: .25rem;
 }
 
 #social img {
@@ -123,20 +133,23 @@ footer h2 {
 
 /* Media Query */
 
-@media only screen and (min-width: 501px) and (max-width: 900px) {
+@media only screen and (min-width: 501px) and (max-width: 900px){
 
   header {
     padding: 2rem 3rem;
   }
 
   div.content {
-    padding-left: 3rem;
+    padding: 3rem;
+  }
+
+  div.thumbnail {
+    width: 48%;
   }
 
   footer {
     padding: 3rem;
   }
-
 }
 
 @media only screen and (min-width: 250px) and (max-width: 500px) {
@@ -154,7 +167,11 @@ footer h2 {
   }
 
   div.content {
-    padding-left: 2rem;
+    padding: 2rem;
+  }
+
+  div.thumbnail {
+    width: 100%;
   }
 
   footer {
@@ -164,5 +181,4 @@ footer h2 {
   #social img {
     height: 35px;
   }
-
 }
