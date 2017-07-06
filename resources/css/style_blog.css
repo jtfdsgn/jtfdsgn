@@ -94,7 +94,7 @@ a.cover:hover {
 }
 
 .cover_title {
-  padding-left: 1rem;
+  padding: 0 1rem;
   margin-top: .5rem;
 }
 
