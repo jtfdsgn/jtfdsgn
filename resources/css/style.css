@@ -79,11 +79,11 @@ div.thumbnail {
   width: 100%;
 }
 
-a.cover {
-  opacity: .8;
+.thumbnail a {
+  opacity: .7;
 }
 
-a.cover:hover {
+.thumbnail a:hover {
   opacity: 1;
 }
 
