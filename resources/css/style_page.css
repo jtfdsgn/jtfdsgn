@@ -74,6 +74,10 @@ div.description {
   margin-top: 2rem;
 }
 
+p.long_form {
+  max-width: 75ch;
+}
+
 /* Artwork Section */
 
 div.gallery {
