@@ -65,6 +65,10 @@ div.content {
   margin-top: 3rem;
 }
 
+div.content_grid {
+  padding: 3rem 5rem;
+}
+
 /* Description Section */
 
 div.description {
@@ -89,6 +93,21 @@ div.gallery {
   max-width: 1100px;
   display: block;
   margin: auto;
+}
+
+div.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div.thumbnail {
+  width: 32%;
+  margin-bottom: 1rem;
+}
+
+.thumbnail img {
+  width: 100%;
 }
 
 #halted img {
@@ -137,6 +156,14 @@ footer h2 {
     padding-left: 3rem;
   }
 
+  div.content_grid {
+    padding: 3rem;
+  }
+
+  div.thumbnail {
+    width: 48%;
+  }
+
   footer {
     padding: 3rem;
   }
@@ -159,6 +186,14 @@ footer h2 {
 
   div.content {
     padding-left: 2rem;
+  }
+
+  div.content_grid {
+    padding: 2rem;
+  }
+
+  div.thumbnail {
+    width: 100%;
   }
 
   footer {
