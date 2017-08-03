@@ -19,12 +19,13 @@ p, footer {
   line-height: 1.5;
 }
 
-a {
+nav a, footer h2 a {
   text-decoration: none;
   color: #4C4C4C;
+  transition: color .3s;
 }
 
-a:hover {
+nav a:hover, footer h2 a:hover {
   color: #70C7B5;
 }
 
@@ -75,22 +76,29 @@ div.thumbnail {
   margin-bottom: 1rem;
 }
 
-.thumbnail img {
+.cover img {
   width: 100%;
-}
-
-.thumbnail a {
   opacity: .7;
+  transition: opacity .5s;
 }
 
-.thumbnail a:hover {
+.cover img:hover {
   opacity: 1;
 }
 
-.cover_title h3 {
+a.cover {
+  text-decoration: none;
+  color: #70C7B5;
+  transition: color .5s;
+}
+
+a.cover:hover {
+  color: #4C4C4C;
+}
+
+.cover h3 {
   font-size: 1rem;
   padding-left: 1rem;
-  color: #70C7B5;
 }
 
 /* Footer Section */

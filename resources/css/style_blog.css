@@ -20,12 +20,13 @@ p, footer {
   line-height: 1.5;
 }
 
-a {
+nav a, footer h2 a {
   text-decoration: none;
   color: #4C4C4C;
+  transition: color .3s;
 }
 
-a:hover {
+nav a:hover, footer h2 a:hover {
   color: #70C7B5;
 }
 
@@ -33,7 +34,7 @@ a:hover p {
   color: #4C4C4C;
 }
 
-div.cover-title {
+div.cover_title {
   margin: auto;
 }
 
@@ -78,28 +79,32 @@ div.gallery {
 div.thumbnail {
   width: 32%;
   margin-bottom: 1rem;
-
 }
 
-.thumbnail img {
+.cover img {
   width: 100%;
+  opacity: .7;
+  transition: opacity .5s;
+}
+
+.cover img:hover {
+  opacity: 1;
 }
 
 a.cover {
-  opacity: .8;
-}
-
-a.cover:hover {
-  opacity: 1;
+  text-decoration: none;
+  color: #4C4C4C;
 }
 
 .cover_title {
   padding: 0 1rem;
   margin-top: .5rem;
+  opacity: .9;
 }
 
 .cover_title h1 {
   font-size: 1.5rem;
+  color: #70C7B5;
 }
 
 /* Footer Section */

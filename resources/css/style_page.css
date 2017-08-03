@@ -28,6 +28,7 @@ p, footer {
 a {
   text-decoration: none;
   color: #4C4C4C;
+  transition: color .3s;
 }
 
 a:hover {
