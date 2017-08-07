@@ -29,6 +29,16 @@ nav a:hover, footer h2 a:hover {
   color: #70C7B5;
 }
 
+footer p a {
+  text-decoration: none;
+  color: #70C7B5;
+  transition: color .3s;
+}
+
+footer p a:hover {
+  color: #4C4C4C;
+}
+
 div.cover-title {
   margin: auto;
 }
@@ -41,7 +51,7 @@ header {
 }
 
 header img {
-  height: 200px;
+  height: 12.5rem;
 }
 
 nav {
@@ -117,9 +127,13 @@ footer {
   padding-right: .5rem;
 }
 
-footer h2 {
-  padding: .25rem 0;
+footer h2, footer p {
+  padding: .5rem 0;
   font-size: 1.25rem;
+}
+
+h2#email {
+  padding-top: 1rem;
 }
 
 #social a {
