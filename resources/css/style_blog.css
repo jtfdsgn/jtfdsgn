@@ -83,12 +83,12 @@ div.thumbnail {
 
 .cover img {
   width: 100%;
-  opacity: .7;
+  opacity: .3;
   transition: opacity .5s;
 }
 
 .cover img:hover {
-  opacity: 1;
+  opacity: .7;
 }
 
 a.cover {
@@ -97,15 +97,17 @@ a.cover {
 }
 
 .cover_title {
-  padding: 0 1rem;
-  margin-top: .5rem;
+  padding: .5rem 1rem;
   opacity: .9;
 }
 
 .cover_title h1 {
   font-size: 1.5rem;
-  color: #70C7B5;
+  opacity: .5;
 }
+
+/* Green - color: #70C7B5; */
+
 
 /* Footer Section */
 
